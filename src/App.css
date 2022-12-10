@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  background: #dd3e54; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6be585, #dd3e54);
+  background: linear-gradient(to right, #6be585, #dd3e54);
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.search-form > input {
+  width: 400px;
+  height: 32px;
+  border-radius: 10px 0 0 10px;
+}
