@@ -1,8 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "../src/App.css";
 import Recipe from "./Recipe";
+import Loader from "./components/Loader.jsx";
 
 const App = () => {
+  // LOADER
+  const [loader, setLoader] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false);
+    }, 2500);
+  }, []);
+  // ----------------
+
   const APP_ID = "17f88841";
   const APP_KEY = "2717b42231f2c065b05cc25d93c8df55";
 
@@ -38,7 +49,9 @@ const App = () => {
   // every time we tape 1 letter in the search bar, its gonna search in API
   // not a good idea
 
-  return (
+  return loader ? (
+    <Loader />
+  ) : (
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
         <input
