@@ -53,6 +53,7 @@ const App = () => {
     <Loader />
   ) : (
     <div className="App">
+      <h1>enter your favorite ingredient</h1>
       <form onSubmit={getSearch} className="search-form">
         <input
           classname="search-bar"
@@ -65,7 +66,7 @@ const App = () => {
           type="submit"
           for="Entrez votre ingrédient favoris"
         >
-          Search
+          <i class="fa-solid fa-magnifying-glass"></i>
         </label>
       </form>
       <div className="recipes">

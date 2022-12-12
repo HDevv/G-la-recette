@@ -2,13 +2,23 @@
 
 * {
   font-family: "Source Sans Pro", sans-serif;
+  margin: auto;
 }
 
 .App {
   min-height: 100vh;
-  background: #dd3e54; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6be585, #dd3e54);
-  background: linear-gradient(to right, #6be585, #dd3e54);
+  /* background: #dd3e54; fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #6be585, #dd3e54);
+  background: linear-gradient(to right, #6be585, #dd3e54); */
+  background-color: #d8633b;
+  background-image: linear-gradient(62deg, #d8633b 0%, #f7ce68 100%);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
 }
 
 .search-form {
@@ -22,6 +32,7 @@
   width: 50%;
   border: none;
   padding: 10px;
+  margin: 0;
 }
 
 .search-button {
@@ -29,7 +40,9 @@
   border: none;
   padding: 10px 20px;
   color: white;
+  height: 18px;
   border-radius: 0 10px 10px 0;
+  margin-right: 510px;
 }
 
 .recipes {
@@ -41,4 +54,6 @@
   width: 400px;
   height: 32px;
   border-radius: 10px 0 0 10px;
+  border: none;
+  margin-left: 528px;
 }
