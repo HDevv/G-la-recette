@@ -55,19 +55,21 @@ const App = () => {
     <div className="App">
       <h1>enter your favorite ingredient</h1>
       <form onSubmit={getSearch} className="search-form">
-        <input
-          classname="search-bar"
-          type="text"
-          value={search}
-          onChange={updateSearch}
-        />
-        <label
-          className="search-button"
-          type="submit"
-          for="Entrez votre ingrédient favoris"
-        >
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </label>
+        <div className="search">
+          <input
+            classname="search-bar"
+            type="text"
+            value={search}
+            onChange={updateSearch}
+          />
+          <label
+            className="search-button"
+            type="submit"
+            for="Entrez votre ingrédient favoris"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </label>
+        </div>
       </form>
       <div className="recipes">
         {recipes.map((recipe) => (
