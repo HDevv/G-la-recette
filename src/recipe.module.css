@@ -8,11 +8,7 @@
   flex-direction: column;
   justify-content: space-around;
   background: rgb(234, 235, 242);
-  background: linear-gradient(
-    0deg,
-    rgba(234, 235, 242, 1) 57%,
-    rgba(231, 193, 22, 0.616) 100%
-  );
+  background: linear-gradient(0deg, #eddcd2 57%, #cb997e 100%);
   align-items: center;
   min-width: 40%;
 }
@@ -22,6 +18,10 @@ ol {
 }
 p {
   padding-bottom: 2rem;
+}
+li {
+  list-style-type: none;
+  padding: 2px;
 }
 /* .recipe::after {
   display: block;
