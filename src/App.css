@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Prompt:wght@300&display=swap");
 
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Monserrat", sans-serif;
   margin: auto;
 }
 
@@ -19,6 +19,7 @@ h1 {
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
+  color: bisque;
 }
 
 .search-form {
