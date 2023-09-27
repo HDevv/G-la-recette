@@ -29,18 +29,17 @@ h1 {
   align-items: center;
 }
 
-.search-bar {
+.search-form input {
   width: 50%;
   border: none;
-  padding: 10px;
-  margin: 0;
+  padding-top: 1.8px;
 }
 
 .search-button {
   background: lightcoral;
   border: none;
-  padding: 10px 20px;
-  color: white;
+
+  padding: 9px 20px;
   border-radius: 0 10px 10px 0;
 }
 
