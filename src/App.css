@@ -36,7 +36,7 @@ h1 {
 }
 
 .search-button {
-  background: lightcoral;
+  background: rgb(231, 105, 105);
 
   padding: 9px 20px;
   border-radius: 0 10px 10px 0;
