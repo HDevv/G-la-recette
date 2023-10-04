@@ -2,3 +2,7 @@
   margin-left: 40%;
   margin-top: 20%;
 }
+
+.loader_cont {
+  background-image: linear-gradient(62deg, #aa7398 0%, #602d5f 100%);
+}

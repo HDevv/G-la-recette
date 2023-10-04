@@ -3,7 +3,7 @@ import LoaderGIF from "../../eating-cartman.gif";
 import "../components/Loader.css";
 const Loader = () => {
   return (
-    <div>
+    <div className="loader_cont">
       <img id="cartman" src={LoaderGIF} alt="" />
     </div>
   );
