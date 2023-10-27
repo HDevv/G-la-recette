@@ -53,7 +53,7 @@ const App = () => {
     <Loader />
   ) : (
     <div className="App">
-      <h1>enter your favorite ingredient</h1>
+      <h1>enter your favorite ingredient 🍽️</h1>
       <form onSubmit={getSearch} className="search-form">
         <div className="search">
           <input
